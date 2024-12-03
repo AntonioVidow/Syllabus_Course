@@ -1,0 +1,159 @@
+body{
+    font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Black";
+    
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* Headings */
+.big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/*Titles*/
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Navbar Section */
+
+.container-fluid {
+    padding: 3% 15% 25%!important;
+}
+
+.navbar{
+    padding-bottom: 4.5rem !important;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu" !important;
+    font-size: 3rem !important;
+    font-weight: bold !important;
+}
+
+.navbar-item{
+    padding: 0 18px !important;
+}
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+
+/* Features Section */
+
+#features{
+    padding: 3% 15% 0;
+    background-color: #fff;
+    font-size: 140%;
+    position: relative;;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* CTA section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: "Ubuntu";
+    color: #fff;
+    padding: 10% 10%;
+}
+
+.cta-heading{
+    font-size: 5rem;
+}
+
+.cta-bt{
+    margin: 5% 2%;
+}
+
+/*Footer*/
+#footer{
+    text-align: center;
+    padding: 2% 0 2%;
+}
+
+
+@media (max-width: 990px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+        margin-top: 15%;
+    }
+
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Contacts</h2>
+    <p>Tell : 0868608709</p>
+    <p> Somthing : jdsigai@gmail.com</p>
+
+    <form action="mailto:20305@uktc-bg.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label>Choose color</label></td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name = "gender" value="male">male</td>
+                <td><input type="radio"name = "gender" value="female">female</td>
+                <td><input type="radio" name="gender" value="other" disabled>other</td>
+            </tr>
+            <tr><td><label>Input message:</label></td></tr>
+        </table>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        <br><input type="submit" value="Submit">
+    </form>
+</body>
+</html>
